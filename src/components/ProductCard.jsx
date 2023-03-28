@@ -4,7 +4,7 @@ import { BiListPlus } from "react-icons/bi";
 const ProductCard = ({ product }) => {
   return (
     <div
-      className='shadow-lg rounded-3xl border  p-3 flex flex-col text-indigo-900'
+      className='shadow-lg rounded-xl border  p-3 flex flex-col text-indigo-900'
       key={product._id}
     >
       <div className='h-52 w-52 mx-auto'>
