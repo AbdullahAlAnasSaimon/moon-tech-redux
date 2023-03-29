@@ -23,7 +23,7 @@ const Navbar = () => {
           </li>
         </Link>
         <Link to='/cart'>
-          <li title='cart' className='bg-indigo-500 p-2 rounded-full'>
+          <li title='cart' className='bg-indigo-500 p-2 rounded-full relative'>
             <BsFillCartFill className='text-white ' />
           </li>
         </Link>
