@@ -15,6 +15,7 @@ const ProductCard = ({ product }) => {
       className='shadow-lg rounded-xl border  p-3 flex flex-col text-indigo-900'
       key={product._id}
     >
+      {product?.quantity && <div className="text-indigo-500 bg-blue-100 px-3 py-1 rounded-full text-center">Quantity: {product?.quantity}</div>}
       <div className='h-52 w-52 mx-auto'>
         <img src={product.image} alt={product.model} />
       </div>
